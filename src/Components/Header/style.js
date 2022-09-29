@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: #000;
+  background: var(--container-color);
   padding: 0 30px;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 10;
-
+  padding:14px;
   `
   export const Header = styled.header`
   display: flex;
@@ -17,12 +17,12 @@ export const Container = styled.div`
   height: 52px;
   a{
     text-decoration: none;
-    color: red;
+    color: var(--color-background);
     margin: 20px;
     font-size: 20px;
   }
   a:hover{
-    color: white;
+    color: var(--color-red);
   }
   .menu{
     margin: 20px;

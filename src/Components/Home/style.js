@@ -1,9 +1,17 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-margin:70px;
+width: 100vw; 
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: #fff;
+padding:14px;
+background-color: var(--color-background-geral);
 body {
   font-family: Arial;
+  
 }
 
 h1 {
@@ -21,9 +29,9 @@ h2 {
  margin: 10px auto;
 }
 .comprar {
-  width: 60px;
-  background: #a8f;
-  color: #103;
+  width: 70px;
+  background: var( --color-red);
+  color: var( --color-background);
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 4px;
@@ -35,11 +43,13 @@ h2 {
   color: #a8f;
 }
 .item {
-  background:var(--color-background);
+  margin: 10px;
+  background:var( --color-comments);
   border: 1px solid #e7e7e7;
   padding: 20px;
   border-radius: 4px;
   display: grid;
+  color: var(--color-background);
 }
 
 .grid {

@@ -4,6 +4,7 @@ import Home from './Components/Home'
 import Singup from './Pages/Singup'
 import Footer from './Components/Footer'
 import Global from './Global'
+import About from './Components/About'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Global />
       <Header />
+      <About />
       <Home />
     <Singup />
     <Footer />

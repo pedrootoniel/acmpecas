@@ -1,16 +1,34 @@
 import { createGlobalStyle } from 'styled-components'
+
 export default createGlobalStyle`
-        *{
-            margin:0;
-            padding:0;
-        }
-        html,body{
-           background: #eee;
-            height:100%;
-            width:100%;
-            font-family: 'Poppins', sans-serif;
-        }
+
+/*=============== BASE ===============*/
+* {
+ 
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--body-font);
+  //color: var(--text-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*=============== CARD ===============*/
+
+
+/* Animation img */
+
+
+/* Animation shape */
     :root {
+      /*========== Colors ==========*/
+      --color-red:red;
       --color-button: #53B4CF;
       --color-background: #ffffff;
       --color-border: #ccc;
@@ -19,6 +37,21 @@ export default createGlobalStyle`
       --color-gray-text: #999;
       --color-background-geral: #eee;
       --color-comments: #333;
+      --title-color: #fff;
+      --text-color: hsl(235, 20%, 57%);
+      --shape-gradient: linear-gradient(90deg, 
+                    hsl(300, 76%, 60%),
+                    hsl(57, 81%, 60%));
+      --body-gradient: linear-gradient(180deg, 
+                hsl(22, 100%, 84%),
+                hsl(265, 100%, 80%));
+     --container-color: hsl(235, 32%, 10%);
+      /*========== Font and typography ==========*/
+  --body-font: 'Poppins', sans-serif;
+  --biggest-font-size: 2.25rem;
+  --normal-font-size: 1.25rem;
+  
+
     }
     `
         
