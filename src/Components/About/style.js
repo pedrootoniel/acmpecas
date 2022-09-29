@@ -32,7 +32,7 @@ padding:14px;
   text-decoration: none;
 }
 .btn:hover{
-  background-color: var(--color-text);
+  background-color: var(--color-red);
 }
 
 `

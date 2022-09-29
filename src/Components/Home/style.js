@@ -23,10 +23,11 @@ h2 {
 }
 .img{
   max-width: 50%;
+ 
 }
 .imgs{
   display: block;
- margin: 10px auto;
+ 
 }
 .comprar {
   width: 70px;
