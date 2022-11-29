@@ -16,7 +16,7 @@ function index() {
       <h2>Escavadeiras</h2>
       <p className="preco">R$ Combinar whatsap</p>
       <img className="img" src={Logo} />
-      <p>Escavadeiras para você trabalhar com agilidade e rapidez.</p>
+      <p>,Embreve,Embreve</p>
       <a className="comprar" href="https://api.whatsapp.com/send?phone=5562985818528&text=Ol%C3%A1%2C%20encontrei%20voc%C3%AAs%20pelo%20site%2C%20queria%20saber%20mais%20sobre%20voc%C3%AAs!" target="_blank">Comprar</a>
     </div>
     
@@ -24,35 +24,35 @@ function index() {
       <h2>Embreve</h2>
       <p className="preco">R$ Combinar whatsap</p>
       <img className="img" src={Logo1} />
-      <p>Embreve</p>
+      <p>Embreve,Embreve</p>
       <a className="comprar" href="https://api.whatsapp.com/send?phone=5562985818528&text=Ol%C3%A1%2C%20encontrei%20voc%C3%AAs%20pelo%20site%2C%20queria%20saber%20mais%20sobre%20voc%C3%AAs!" target="_blank">Comprar</a>
     </div>
     <div className="item">
-      <h2>Embreve</h2>
+      <h2>Embreve,Embreve</h2>
       <p className="preco">R$ Combinar whatsap</p>
       <img className="img" src={Logo2} />
-      <p>Embreve</p>
+      <p>Embreve,Embreve</p>
+      <a className="comprar" href="https://api.whatsapp.com/send?phone=5562985818528&text=Ol%C3%A1%2C%20encontrei%20voc%C3%AAs%20pelo%20site%2C%20queria%20saber%20mais%20sobre%20voc%C3%AAs!" target="_blank">Comprar</a>
+    </div>
+    <div className="item">
+      <h2>Embreve,Embreve.Embreve</h2>
+      <p className="preco">R$ Combinar whatsap</p>
+      <img className="img" src={Logo3} />
+      <p>Embreve,Embreve,Embreve</p>
       <a className="comprar" href="https://api.whatsapp.com/send?phone=5562985818528&text=Ol%C3%A1%2C%20encontrei%20voc%C3%AAs%20pelo%20site%2C%20queria%20saber%20mais%20sobre%20voc%C3%AAs!" target="_blank">Comprar</a>
     </div>
     <div className="item">
       <h2>Embreve</h2>
       <p className="preco">R$ Combinar whatsap</p>
       <img className="img" src={Logo3} />
-      <p>Embreve</p>
-      <a className="comprar" href="https://api.whatsapp.com/send?phone=5562985818528&text=Ol%C3%A1%2C%20encontrei%20voc%C3%AAs%20pelo%20site%2C%20queria%20saber%20mais%20sobre%20voc%C3%AAs!" target="_blank">Comprar</a>
-    </div>
-    <div className="item">
-      <h2>Embreve</h2>
-      <p className="preco">R$ Combinar whatsap</p>
-      <img className="img" src={Logo3} />
-      <p>Embreve.</p>
+      <p>Embreve,Embreve</p>
       <a className="comprar" href="https://api.whatsapp.com/send?phone=5562985818528&text=Ol%C3%A1%2C%20encontrei%20voc%C3%AAs%20pelo%20site%2C%20queria%20saber%20mais%20sobre%20voc%C3%AAs!">Comprar</a>
     </div>
     <div className="item">
       <h2>Embreve</h2>
       <p className="preco">R$ Combinar whatsap</p>
       <img className="img" src={Logo3} />
-      <p>Embreve</p>
+      <p>EmbreveEmbreve</p>
       <a className="comprar" href="https://api.whatsapp.com/send?phone=5562985818528&text=Ol%C3%A1%2C%20encontrei%20voc%C3%AAs%20pelo%20site%2C%20queria%20saber%20mais%20sobre%20voc%C3%AAs!" target="_blank">Comprar</a>
     </div>
   </div>
