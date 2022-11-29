@@ -4,11 +4,12 @@ export const Container = styled.div`
   background: var(--container-color);
   padding: 0 30px;
   position: fixed;
+  flex-direction: column;
+  height: 90px;
   top: 0;
   left: 0;
   right: 0;
   z-index: 10;
-  padding:14px;
   `
   export const Header = styled.header`
   display: flex;

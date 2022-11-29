@@ -30,13 +30,12 @@ h2 {
  
 }
 .comprar {
-  width: 70px;
+  width: 100px;
   background: var( --color-red);
   color: var( --color-background);
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 4px;
-  margin: 5px;
   font-size: 18px;
 }
 .comprar:hover{

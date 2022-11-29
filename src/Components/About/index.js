@@ -1,9 +1,11 @@
 import React from 'react'
 import {Container} from './style';
 
+
 function index() {
   return (
     <Container>
+         
       <p className='paragrafo'>Sobre nós</p>
       <div class="col-md-8 text-center">
             <p class="paragrafo1" data-aos="fade-up" data-aos-delay="100">UMA HISTÓRIA DE DESAFIOS E SUPERAÇÕES.</p>

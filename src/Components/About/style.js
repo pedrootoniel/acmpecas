@@ -1,25 +1,26 @@
 import styled from 'styled-components';
 export const Container = styled.div`
-width: 100vw;
-height: 50vh;
-min-height: 50vh;
+width: 100vw; 
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-background-color: var(--container-color);
 color: #fff;
 padding:14px;
+margin-top: 72px;
+background: var(--container-color);
 
 .paragrafo{
   text-align: center;
   font-size: 40px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding: 10px;
 }
 .paragrafo1{
   text-align: center;
   font-family: fantasy;
-  margin: 20px;
+  padding: 10px;
+
 
 }
 .btn{

@@ -5,9 +5,11 @@ import Logo1 from './../../Assets/1.jpg'
 import Logo2 from './../../Assets/2.jpg'
 import Logo3 from './../../Assets/3.jpg'
 import Logo4 from './../../Assets/logo.png'
+import Header from '../Header'
 function index() {
   return (
     <Container>
+      <Header />
       <img className="imgs" src={Logo4} />
   <div className="grid">
     <div className='item'>
