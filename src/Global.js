@@ -4,9 +4,9 @@ export default createGlobalStyle`
 
 /*=============== BASE ===============*/
 * {
- 
-  padding: 0;
-  margin: 0;
+ margin: 0;
+ padding: 0;
+
 }
 
 body {
@@ -14,10 +14,6 @@ body {
   //color: var(--text-color);
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
 
 /*=============== CARD ===============*/
 
