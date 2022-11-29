@@ -6,6 +6,7 @@ import Header from './Components/Header'
 import About from './Components/About'
 import Home from './Components/Home';
 import Singup from './Pages/Singup'
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <About />
       <Home />
       <Singup />
+      <Footer />
       <Global />
     </Router>
 
