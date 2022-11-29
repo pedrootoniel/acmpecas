@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 display: flex;
+justify-content: center;
 align-items: center;
 flex-direction: column;
 color: #fff;
@@ -35,7 +36,7 @@ h2 {
   padding: 5px 20px;
   text-decoration: none;
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 15px;
 }
 .comprar:hover{
   background-color: black;
@@ -44,7 +45,7 @@ h2 {
 .item {
   background:var( --color-comments);
   border: 1px solid #e7e7e7;
-  padding: 20px;
+  padding: 10px;
   border-radius: 4px;
   color: var(--color-background);
 }
@@ -52,7 +53,7 @@ h2 {
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr ;
-  gap: 10px;
+  
   place-content: start;
  
 }

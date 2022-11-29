@@ -4,8 +4,7 @@ export const Container = styled.div`
   background: var(--container-color);
   padding: 0 30px;
   position: fixed;
-  flex-direction: column;
-  height: 90px;
+  height: 70px;
   top: 0;
   left: 0;
   right: 0;
@@ -13,14 +12,17 @@ export const Container = styled.div`
   `
   export const Header = styled.header`
   display: flex;
-  justify-content: space-between;
-  margin: 10px;
-  height: 52px;
+
+  .logo{
+
+    flex: 0em;
+    
+  }
   a{
     text-decoration: none;
     color: var(--color-background);
     margin: 20px;
-    font-size: 20px;
+    font-size: 17px;
   }
   a:hover{
     color: var(--color-red);

@@ -9,8 +9,9 @@ function index() {
     <Container>
 
    <Header>
-    
+    <div className='logo'>
     <a href='/'>Acm Peças</a>
+    </div>
     <nav className='menu'>
       <a href='/'>Inicio</a>
       <a href='/about'>Produtos</a>

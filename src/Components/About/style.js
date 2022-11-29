@@ -1,18 +1,15 @@
 import styled from 'styled-components';
 export const Container = styled.div`
-width: 100vw; 
-display: flex;
-justify-content: center;
-align-items: center;
+
 flex-direction: column;
 color: #fff;
 padding:14px;
-margin-top: 72px;
+margin-top: 70px;
 background: var(--container-color);
 
 .paragrafo{
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   padding: 10px;
 }
